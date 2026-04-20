@@ -28,6 +28,11 @@ on:
           - 'standard（普通构建）'
           - 'accelerated（加速构建）'
           - 'toolchain_only（仅工具链）'
+      HOST_NAME:
+        description: '主机名称 （Host Name）'
+        required: true
+        default: 'ZeroWrt'
+        type: string          
       LAN_IP:
         description: 'LAN IP 地址 （LAN IPv4 Address）'
         required: true
@@ -36,7 +41,7 @@ on:
       ROOT_PASSWORD:
         description: 'Root 密码（Root password, optional）'
         required: false
-        default: 'password'
+        default: ''
         type: string
 
 # 定时触发编译
