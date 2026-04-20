@@ -2,12 +2,12 @@
 # Custom Build Configuration
 # ------------------------------------------------------------------------------
 # Project   : ImmortalWrt for MT7981 (Philips HY3000)
-# Repository: https://github.com/MomoFlora/immortalwrt-mt7981-philips-hy3000
+# Repository: https://github.com/MomoFlora/immortalwrt-mt7981-konka_komi-a31
 # Maintainer: Zhao Wenwen
 #
 # Description:
 #   Customized build pipeline based on P3TERX Actions-OpenWrt,
-#   tailored for Philips HY3000 platform with MT7981 SoC.
+#   tailored for konka_komi-a31 platform with MT7981 SoC.
 # ===============================================================================
 
 name: 🧩 固件编译
@@ -51,8 +51,8 @@ on:
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
   REPO_BRANCH: openwrt-24.10-6.6
-  FEEDS_CONF: philips-hy3000/feeds.conf.default
-  CONFIG_FILE: philips-hy3000/philips-hy3000.config
+  FEEDS_CONF: konka_komi-a31/feeds.conf.default
+  CONFIG_FILE: konka_komi-a31/konka_komi-a31.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_FIRMWARE: true
