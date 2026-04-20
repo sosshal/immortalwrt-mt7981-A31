@@ -29,5 +29,5 @@ git clone --depth=1 -b master https://github.com/destan19/OpenAppFilter package/
 git clone --depth=1 https://github.com/ZeroWrt/openwrt_helloworld package/new/helloworld
 
 # 主题
-git clone --depth=1 -b openwrt-25.12 https://github.com/sbwml/luci-theme-argon package/new/argon
-git clone --depth=1 -b master https://github.com/MomoFlora/luci-theme-design package/new/design
+git clone --depth=1 -b openwrt-25.12 https://github.com/sbwml/luci-theme-argon package/new/luci-theme-argon
+git clone --depth=1 -b master https://github.com/MomoFlora/luci-theme-design package/new/luci-theme-design
